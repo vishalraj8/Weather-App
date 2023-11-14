@@ -23,5 +23,7 @@ Thank you for choosing our Weather App! Stay informed and be weather-ready.
 
 ## Screenshots
 
+![Home Screen](https://github.com/vishalraj8/Weather-App/blob/main/screenshots/Screenshot%20(21).png)
+![Home Screen](https://github.com/vishalraj8/Weather-App/blob/main/screenshots/Screenshot%20(22).png)
 
 
