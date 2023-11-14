@@ -11,6 +11,8 @@ OneClick offers several features to enhance the shopping experience for users:
 
 2. User-Friendly Interface: The app is designed with a clean and intuitive interface, making it easy for users to navigate and access the information they need.
 
+3. Weather App dynamically changes its background based on the location searched
+
 
 ## Credits
 
