@@ -1,9 +1,9 @@
 let weather = {
-    apiKey: "0c22d9f9d9667b94aed6719d9aa58db1",
+    apiKey: "API KEY GOES HERE",
   
     fetchWeather: function (city) {
       fetch(
-        " https://api.openweathermap.org/data/2.5/weather?q=paris&units=metric&appid=0c22d9f9d9667b94aed6719d9aa58db1")
+        "https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${this.apiKey} ")
         .then((response) => {
           if (!response.ok) {
             alert("No weather found.");
@@ -11,8 +11,8 @@ let weather = {
           }
           return response.json();
         })
-            .then(data => this.displayWeather(data))
-            .catch(error => console.error("Error fetching weather:", error));
+        .then((data) => this.displayWeather(data))
+        .catch((error) => console.error("Error fetching weather:", error));
     },
   
     displayWeather: function (data) {
@@ -35,7 +35,7 @@ let weather = {
       const searchBar = document.querySelector(".search-bar");
       if (searchBar.value) {
         this.fetchWeather(searchBar.value);
-        searchBar.value = ""; 
+        searchBar.value = "";
       }
     },
   };
@@ -51,5 +51,5 @@ let weather = {
     }
   });
   
-  weather.fetchWeather("Denver");
+  weather.fetchWeather("paris");
   
