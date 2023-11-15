@@ -55,5 +55,5 @@ let weather = {
     }
   });
   
-  weather.fetchWeather("Denver");
+  weather.fetchWeather("paris");
   
